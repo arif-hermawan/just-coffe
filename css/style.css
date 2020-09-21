@@ -1,0 +1,444 @@
+/* NOTE 
+
+font-family: 'Rubik', sans-serif;
+font-family: 'Source Serif Pro', serif;
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+/* ALL VERSION */
+
+
+
+/* NAVBAR */
+
+.navbar {
+    background-color: rgb(0, 0, 0, 0.8);
+
+}
+
+
+.container .navbar-brand {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: white !important;
+    text-shadow: 0px 4px 4px rgba(90, 90, 90, 0.25);
+
+}
+
+.container .navbar-brand:hover {
+    color: #a0a0a0 !important;
+
+
+}
+
+
+.container .nav-link {
+    font-family: 'Source Serif Pro', serif;
+    color: whitesmoke !important;
+    font-size: 18px;
+    margin-left: 0px;
+}
+
+.container .nav-link:hover {
+    color: #a0a0a0 !important;
+}
+
+
+/* END NAVBAR */
+
+
+
+
+
+/* JUMBOTRON */
+
+.jumbotron {
+    background-image: url(/material/primary-bg.png);
+    background-size: cover;
+    height: 640px;
+    margin-top: 0px;
+}
+
+.jumbotron h1 {
+    font-family: 'Source Serif Pro', serif;
+    color: whitesmoke;
+    margin-top: 170px;
+    font-size: 54px !important;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron .btn {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Serif Pro', serif;
+    color: #864F4F;
+    border-radius: 0;
+    background-color: whitesmoke;
+    width: 164px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.jumbotron .btn:hover {
+    background-color: #864F4F;
+    color: whitesmoke;
+}
+
+
+/* END JUMBOTRON */
+
+
+
+
+
+/* BEST QUALITY */
+
+.barista {
+    background-color: #C4C4C4;
+    width: 100%;
+    height: 680px;
+    /* height: 480px; */
+    margin-top: 63px;
+    overflow: hidden;
+
+}
+
+.barista img {
+    margin-top: 50px !important;
+    /* margin-top: 100px !important; */
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.7));
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.barista .caption {
+    font-family: 'Source Serif Pro', serif;
+    margin-top: 40px;
+    /* margin-top: 120px !important; */
+    /* text-align: left; */
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.barista p {
+    margin-top: -3px !important;
+    font-family: 'Rubik', sans-serif;
+}
+
+.caption a {
+    position: relative;
+    background-color: antiquewhite;
+    color: #864F4F;
+}
+
+.caption p {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
+/* END BEST QUALITY */
+
+
+
+
+
+
+
+/* MENU2 */
+
+
+
+.menu2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    overflow: hidden;
+    
+}
+
+
+.menu2 .featuredProduct {    
+    /* width: 50%; */
+    width: 100%;
+}
+
+
+.menu2 img {
+    width: 100%;
+    transition: 1s;
+}
+.menu2 img:hover {
+    -webkit-filter: grayscale(100%);
+    filter: 100%;
+}
+
+
+.menu2 h2 {
+    font-family: 'Source Serif Pro', serif;
+    color: whitesmoke;
+    position: absolute;
+    font-size: 24;
+    margin-top:-200px ;
+    margin-left: 150px;
+    
+    /* margin-left: 200px; */
+    /* font-size: 48px; */
+    /* margin-top: -300px !important;
+    margin-left: 200px; */
+
+}
+
+.menu2 h2:after{
+    content: '';
+    display: block;
+    border-bottom: 5px solid whitesmoke;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.menu2 h2::before{
+    content: '';
+    display: block;
+    border-bottom: 5px solid whitesmoke;
+    width: 50%;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+/* END MENU2 */
+
+
+
+
+
+/* ABOUT US */
+
+.aboutUs {
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+
+.aboutUs h2 {
+    font-family: 'Source Serif Pro', serif;
+    margin-top: -200px;
+    
+}
+.aboutUs p {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+
+
+/* END ABOUT US */
+
+
+
+
+
+
+footer  {
+   font-family: 'Source Serif Pro', serif;
+   font-weight: 900 !important;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEKSTOP VERSION */
+
+@media (min-width : 763px) {
+
+
+
+    /* NAVBAR */
+
+    .navbar {
+        background-color: rgb(0, 0, 0, 0.5);
+    }
+
+
+    .container .navbar-brand {
+        color: #864F4F !important;
+        font-weight: bold;
+        width: 50px;
+        height: 30px;
+        background-color: white;
+        text-shadow: 0px 4px 4px rgba(90, 90, 90, 0.25);
+        transition: 600ms;
+    }
+
+    .container .navbar-brand:hover {
+        color: white !important;
+        background-color: #864F4F;
+        width: 130px;
+    }
+
+
+    .container .nav-link {
+        margin-left: 25px;
+    }
+
+
+    .container .nav-link:hover {
+        color: #864F4F !important;
+    }
+
+
+
+    /* END NAVBAR */
+
+
+
+
+    /* JUMBOTRON */
+
+    .jumbotron {
+        height: 640px;
+        margin-top: -70px;
+
+
+    }
+
+    .jumbotron h1 {
+        margin-top: 140px;
+        font-size: 64px !important;
+
+
+    }
+
+
+
+
+
+    /* END JUMBOTRON */
+
+
+
+
+
+
+    /* BEST QUALITY */
+
+    .barista {
+        height: 480px;
+
+
+    }
+
+
+    .barista img {
+        margin-top: 100px !important;
+
+    }
+
+
+    .barista .caption {
+        margin-top: 120px !important;
+        text-align: left;
+
+    }
+
+
+
+    /* END BEST QUALITY */
+
+
+
+
+/* MENU2 */
+
+
+
+    .menu2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        
+    }
+    
+    
+    .menu2 .featuredProduct {    
+        width: 50%;
+        
+        
+    }
+    
+    .menu2 h2 {
+        font-size: 48px;
+        margin-top: -300px !important;
+        margin-left: 200px;
+    
+    }
+
+
+
+/* END MENU2 */
+
+
+
+
+/* ABOUT US */
+
+.aboutUs img {
+    width: 100%;
+}
+
+
+/* END ABOUT US */
+
+
+
+
+
+
+
+
+
+
+
+}
